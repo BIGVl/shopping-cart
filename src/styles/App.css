@@ -1,0 +1,23 @@
+body {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+:root {
+    /* Set up variables here, mostly*/
+}
+
+.navbar {
+    background-color: tomato;
+}
+
+li {
+    list-style: none;
+    
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
