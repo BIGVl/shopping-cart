@@ -4,7 +4,7 @@ import '../styles/App.css';
 const Navbar = () => {
   return (
     <div className="navbar">
-      <li>
+      <li className="nav-container">
         <a href="/Home">Home</a>
         <a href="/Shop">Shop</a>
         <a href="/shopping-cart">
