@@ -1,4 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=RocknRoll+One&display=swap');
+
+.shop-container {
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+    width: 80%;
+    margin-top: 3rem;
+    left: 50%;
+    transform: translateX(-50%);
+    font-family: 'RocknRoll One', sans-serif;
+}
+
+
+.rock-card {
+
+    display: flex;
+    flex-direction: column;
+    width: 15%;
+    border: 10px ridge #aaa;
+
+
+}
+
 .rock {
-    width: 20%;
-    height: 20%;
+    width: 100%;
+}
+
+.description
+ {
+    font-size: 1.3rem;
+    display: flex;
+    overflow-wrap: break-word;
+    width: 100%;
+    padding: 5px;
+    font-family: 'RocknRoll One', sans-serif;
+}
+
+.price {
+    font-size: 1.5rem;
+    padding: 5px;
+    font-family: 'RocknRoll One', sans-serif;
 }

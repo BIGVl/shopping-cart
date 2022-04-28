@@ -16,3 +16,23 @@ import rock16 from './rocks/rock16.jpeg';
 
 const rocks = [rock1, rock2, rock3, rock4, rock5, rock6, rock7, rock8, rock9, rock10, rock11, rock13, rock14, rock15, rock16];
 export default rocks;
+
+export const rocksDescriptions = [
+  'A magnific rock collected from Egypt',
+  'A beatiful white rock picked up from Transylvania',
+  'This one it was picked by a geologist from a volcano in Hawaii',
+  'This rock was used to murder a king',
+  'A round rock',
+  'On this rock it is believed that Jesus contemplated',
+  'A big rock with a nice shape, I guess you can use it as a table',
+  'This rock is a portal to the world of Gods',
+  'This rock can be used to study rocks in general, because it has layers',
+  'A 3d rock, not real, only 3d',
+  'The Rock (human not included)',
+  'A sealion shaped rock',
+  '2 rocks',
+  'More rocks',
+  'Last rock'
+];
+
+export const rocksPrice = [15, 25, 18, 125, 20, 10000, 250, 50000, 100, 20, 1000, 300, 222, 1000, 560];

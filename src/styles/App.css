@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=RocknRoll+One&display=swap');
+
 body {
     margin: 0;
     box-sizing: border-box;
     padding: 0;
+    font-family: 'RocknRoll One', sans-serif;
 }
 
 :root {
@@ -12,6 +15,7 @@ body {
     background-color: tomato;
     display: flex;
     justify-content: flex-end;
+    height: 5rem;
 }
 
 .nav-container {
@@ -30,6 +34,18 @@ li {
 }
 
 a {
+    display: flex;
+    align-items: center;
     text-decoration: none;
     color: black;
+    font-size: 1.5rem;
+    height: 100%;
 }
+
+
+a:hover,
+svg:hover {
+    color: whitesmoke;
+    fill: whitesmoke;
+}
+
