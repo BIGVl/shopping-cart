@@ -11,7 +11,7 @@ const App = () => {
   const [xItems, setxItems] = useState(0);
 
   return (
-    <Router basename="/Shop">
+    <Router basename="/Rocks">
       <Navbar xItems={xItems} />
       <Routes>
         <Route path="/" element={<Home />} />
