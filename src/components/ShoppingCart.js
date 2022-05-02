@@ -22,7 +22,6 @@ const ShoppingCart = ({ cartItems, setCartItems, setxItems }) => {
           return value;
         }, {})
       );
-      console.log(arranged);
       return arranged;
     });
   }, [cartItems]);
