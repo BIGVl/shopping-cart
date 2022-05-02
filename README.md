@@ -1,1 +1,3 @@
-## A try creating a shopping cart mostly, not an entire shop website
+## We are proudly selling rocks
+
+### Check it : https://bigvl.github.io/shopping-cart/
