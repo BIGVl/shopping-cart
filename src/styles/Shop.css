@@ -11,6 +11,7 @@
     left: 50%;
     transform: translateX(-50%);
     font-family: 'RocknRoll One', sans-serif;
+    padding-bottom: 4rem;
 }
 
 
@@ -18,28 +19,66 @@
 
     display: flex;
     flex-direction: column;
-    width: 15%;
-    border: 10px ridge #aaa;
-
-
+    width: 16%;
+    border: 4px solid black;
+    border-radius: 5px;
+    height: 35vh;
 }
 
 .rock {
     width: 100%;
+    height: 50%;
+    margin-top: -1px;
+    
 }
 
 .description
  {
-    font-size: 1.3rem;
-    display: flex;
+    font-size: 1.1rem;
+    display: inline-block;
     overflow-wrap: break-word;
     width: 100%;
-    padding: 5px;
+    padding:1rem;
     font-family: 'RocknRoll One', sans-serif;
+    padding: 10px;
+    height: 30%;
 }
 
 .price {
     font-size: 1.5rem;
     padding: 5px;
     font-family: 'RocknRoll One', sans-serif;
+    padding: 10px;
 }
+
+.add-item {
+    
+    width: 50%;
+    height: 2.5rem;
+    font-size: 1rem;
+    justify-self: flex-end;
+    align-self: flex-end;
+    font-family: inherit;
+    background-color: tomato;
+    border: none;
+    border-radius: 25px;
+    box-shadow: 2px 2px 4px 2px rgba(55,9,1,0.7);
+    cursor: pointer;
+}
+
+.add-item:hover {
+    background-color: rgb(215, 49, 21);
+}
+
+.add-item:active {
+    background-color: white;
+}
+
+.price-add {
+
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    
+}
+

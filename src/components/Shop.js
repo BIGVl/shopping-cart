@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import rocks, { rocksDescriptions, rocksPrice } from '../assets/rocks';
 import '../styles/Shop.css';
-import ShoppingCart from './ShoppingCart';
 
 const Shop = ({ setCartItems, setxItems, cartItems }) => {
   const [rocksImgs, setRocksImgs] = useState([]);
@@ -30,17 +29,16 @@ const Shop = ({ setCartItems, setxItems, cartItems }) => {
       {rocksImgs.map((rockImg, i) => {
         return (
           <div className="rock-card" key={i}>
-            <div>
-              <img className="rock" src={rockImg} alt="A rock" />
-            </div>
+            <img className="rock" src={rockImg} alt="A rock" />
             <div className="description">{rocksDescriptions[i]}</div>
-            <div>
+            <div className="price-add">
               <div className="price"> {rocksPrice[i]}$ </div>
               <button
                 onClick={() => {
                   addToCart(i);
                 }}
                 className="add-item"
+                name="add-item"
               >
                 Add to Cart
               </button>
